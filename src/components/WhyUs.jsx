@@ -102,7 +102,7 @@ function WhyUs() {
           variants={container}
           initial="hidden"
           whileInView="show"
-          viewport={{ amount: 0.35, once: false }}
+          viewport={{ amount: 0.15, once: false }}
           className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3"
         >
 

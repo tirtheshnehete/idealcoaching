@@ -61,7 +61,7 @@ function Courses() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ amount: 0.4, once: false }}
+          viewport={{ amount: 0.15, once: false }}
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
@@ -82,7 +82,7 @@ function Courses() {
           variants={container}
           initial="hidden"
           whileInView="show"
-          viewport={{ amount: 0.35, once: false }}
+          viewport={{ amount: 0.15, once: false }}
           className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
         >
 

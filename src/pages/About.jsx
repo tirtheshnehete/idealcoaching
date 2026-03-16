@@ -42,7 +42,7 @@ function About() {
           <motion.h1
             initial={{ opacity: 0, y: -40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ amount: 0.4, once: false }}
+            viewport={{ amount: 0.15, once: false }}
             transition={{ duration: 0.7 }}
             className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
           >
@@ -53,7 +53,7 @@ function About() {
             variants={fadeUp}
             initial="hidden"
             whileInView="show"
-            viewport={{ amount: 0.4, once: false }}
+            viewport={{ amount: 0.15, once: false }}
             className="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed"
           >
             At <span className="font-semibold text-blue-600">Ideal Coaching Classes</span>,
@@ -76,7 +76,7 @@ function About() {
           variants={container}
           initial="hidden"
           whileInView="show"
-          viewport={{ amount: 0.35, once: false }}
+          viewport={{ amount: 0.15, once: false }}
           className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center"
         >
 
@@ -126,7 +126,7 @@ function About() {
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ amount: 0.35, once: false }}
+            viewport={{ amount: 0.15, once: false }}
             transition={{ duration: 0.7 }}
             className="bg-white p-10 rounded-2xl shadow-lg"
           >
@@ -148,7 +148,7 @@ function About() {
           <motion.div
             initial={{ opacity: 0, x: 60 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ amount: 0.35, once: false }}
+            viewport={{ amount: 0.15, once: false }}
             transition={{ duration: 0.7 }}
             className="bg-white p-10 rounded-2xl shadow-lg"
           >
@@ -180,7 +180,7 @@ function About() {
           <motion.h2
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ amount: 0.35, once: false }}
+            viewport={{ amount: 0.15, once: false }}
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl font-bold text-center mb-14"
           >
@@ -192,7 +192,7 @@ function About() {
             variants={container}
             initial="hidden"
             whileInView="show"
-            viewport={{ amount: 0.35, once: false }}
+            viewport={{ amount: 0.15, once: false }}
             className="grid sm:grid-cols-2 md:grid-cols-3 gap-10"
           >
 
